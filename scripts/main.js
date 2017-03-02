@@ -1,6 +1,3 @@
-var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello, World!';
-
 var myImage = document.querySelector('img');
 var myLicense = document.getElementById('license');
 myImage.onclick = function() {
@@ -15,4 +12,3 @@ myImage.onclick = function() {
 	myLicense.textContent = 'cc-by-nd-2.0';
     }
 }
-// ground pangolin licensing information: 
